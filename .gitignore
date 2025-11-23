@@ -54,6 +54,7 @@ pip-wheel-metadata/
 
 # Large/local dataset directories (uncomment if you keep large local data outside repo)
 *.pickle
+*.pkl
 
 # Thumbnails, system files
 Thumbs.db
