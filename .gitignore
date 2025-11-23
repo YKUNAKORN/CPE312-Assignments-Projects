@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Environment / secrets
+.env
+.envrc
+credentials.json
+secret_*.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Notebook outputs and derived files
+*.html
+*.pdf
+
+# Package / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Tests / coverage / static analysis
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs, databases, temporary files
+*.log
+*.sqlite3
+*.db
+*.bak
+*~
+*.swp
+*.tmp
+
+# Large/local dataset directories (uncomment if you keep large local data outside repo)
+*.pickle
+
+# Thumbnails, system files
+Thumbs.db
+._*
